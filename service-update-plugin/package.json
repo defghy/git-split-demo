@@ -1,0 +1,21 @@
+{
+  "name": "@mc/service-update-plugin",
+  "version": "0.0.1",
+  "description": "更新业务线全局js入口配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.sprucetec.com/huyu/service-update-plugin"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "huyu@meicai.cn",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.2"
+  }
+}

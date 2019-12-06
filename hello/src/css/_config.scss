@@ -1,0 +1,46 @@
+// 调整并兼容之前的基础变量
+$c-green: #0DAF52;
+$c-green-dark: #D69E01;
+$c-green-light: #66DF63;
+$c-black: #333333;
+$c-black-light: #666666;
+$c-black-light-extra: #999999;
+$c-grey: #9F9F9F;
+$c-grey-light: #CCCCCC;
+$c-grey-light-extra: #EBEBEB;
+$c-white-back: #F5F5F5;
+$c-white: #FFFFFF;
+
+$c-success: #0DAF52;
+$c-warning: #FFB700;
+$c-danger: #ff4e4e;
+$c-mark: #4990E2;
+$c-mark2: #FF711D;
+
+$c-yellow: $c-warning;
+$c-red: $c-danger;
+$c-member: #E49B15;
+$c-blue: $c-mark;
+$c-orange: $c-mark2;
+
+$c-v2orange: #FF6F14;
+
+$text-dark: $c-black; //#333333;
+$text: $c-black-light; //#666666;
+$text-remind: $c-black-light-extra; //#999999;
+$text-light: $c-grey-light; //#CCCCCC;
+$text-extra-light: #CBCBCB;
+
+/* border */
+// 0.02rem在安卓会有 bug
+$border-grey: 1px solid #EBEBEB;
+
+// over
+
+$font20: 20px;
+$font18: 18px;
+$font14: 14px;
+$font12: 12px;
+
+$pc-margin-top: 1%;
+$pc-width: 668px;

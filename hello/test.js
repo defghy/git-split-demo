@@ -1,0 +1,1 @@
+require('@mc/service-update-plugin')
