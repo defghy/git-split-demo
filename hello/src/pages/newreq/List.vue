@@ -10,8 +10,8 @@
 </template>
 
 <script>
+import {APP_NAME} from 'app/utils/global';
 let { Vuex, global } = bapp;
-let { $_width } = global;
 let { mapState: gmapState, mapActions: gmapActions, createNamespacedHelpers } = Vuex;
 const { mapState, mapActions } = createNamespacedHelpers(`${APP_NAME}/feedback`)
 export default {

@@ -4,20 +4,11 @@
   height: 100%;
   font-size: 0.24rem;
   overflow: hidden;
-
-  button {
-    background: #0DAF52;
-    color: #fff;
-  }
 }
 </style>
 
 <template>
   <div id="app">
-    Hello World: {{hello}}
-
-    <button @click="$router.push('/hello/index')">跳转页面1</button>
-    <button @click="$router.push('/hello/newreq')">跳转页面2</button>
     <keep-alive>
       <router-view></router-view>
     </keep-alive>
@@ -25,9 +16,6 @@
 </template>
 
 <script>
-let {Vue, Vuex, store, router, global} = bapp;
-let {mapState, mapActions} = Vuex;
-
 export default {
   data() {
     return {

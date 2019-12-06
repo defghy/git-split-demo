@@ -7,7 +7,7 @@ const McServiceUpdatePlugin = require('../../service-update-plugin');
 const { app_name } = require('../package.json');
 
 var devDefine = require('./define.js').webpackConfig.dev;
-const PORT = 7000;
+const PORT = 7001;
 
 var devConfig = merge({}, baseWebpackConfig, {
   mode: 'development',

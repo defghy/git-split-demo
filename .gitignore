@@ -23,4 +23,5 @@ mock/
 config.json
 vendor/
 compilation-stats.json
+public/*
 
